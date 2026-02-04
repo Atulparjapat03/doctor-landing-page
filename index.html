@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediCare Specialist | Dr. Sarah Jenkins</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <i class="fa-solid fa-heart-pulse"></i> MediCare.
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#doctors">Doctors</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                </ul>
+                <div style="display: flex; gap:10px; align-items: center;">
+                    <a href="#appointment" class="btn btn-primary">Book Now</a>
+                    <div class="mobile-toggle"><i class="fa-solid fa-bars"></i></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-wrapper">
+                <div class="hero-text reveal">
+                    <span class="hero-tag">👋 Welcome to MediCare</span>
+                    <h1>Your Health is Our <span style="color: var(--primary);">Top Priority</span></h1>
+                    <p>Experience world-class healthcare with a personal touch. We combine advanced technology with compassionate care to ensure your well-being.</p>
+                    <div class="hero-btns">
+                        <a href="#appointment" class="btn btn-primary">Get Appointment</a>
+                        <a href="#services" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+                <div class="hero-image reveal">
+                    <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=800&q=80" alt="Doctor">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container stats-container reveal">
+        <div class="stats-grid">
+            <div class="stat-item">
+                <h3>15+</h3>
+                <p>Years Experience</p>
+            </div>
+            <div class="stat-item">
+                <h3>500+</h3>
+                <p>Medical Staff</p>
+            </div>
+            <div class="stat-item">
+                <h3>10k+</h3>
+                <p>Happy Patients</p>
+            </div>
+            <div class="stat-item">
+                <h3>24/7</h3>
+                <p>Emergency Services</p>
+            </div>
+        </div>
+    </div>
+
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Our Special Services</h2>
+                <p>We offer a comprehensive range of medical services to ensure your family's health is in safe hands.</p>
+            </div>
+
+            <div class="service-grid">
+                <div class="service-card reveal">
+                    <div class="icon-box"><i class="fa-solid fa-user-doctor"></i></div>
+                    <h3>General Consultation</h3>
+                    <p>Expert medical advice for your daily health needs and routine checkups.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="icon-box"><i class="fa-solid fa-heart-crack"></i></div>
+                    <h3>Cardiology</h3>
+                    <p>Advanced heart care with state-of-the-art diagnostic equipment.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="icon-box"><i class="fa-solid fa-tooth"></i></div>
+                    <h3>Dental Care</h3>
+                    <p>Comprehensive dental solutions from cleaning to cosmetic surgery.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="icon-box"><i class="fa-solid fa-eye"></i></div>
+                    <h3>Ophthalmology</h3>
+                    <p>Complete eye care services including vision tests and laser surgeries.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="appointment" class="appointment">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Book an Appointment</h2>
+                <p>Ready to see a doctor? Fill out the form below and we'll confirm your slot.</p>
+            </div>
+            <div class="app-wrapper reveal">
+                <div class="app-image"></div>
+                <div class="app-form">
+                    <form>
+                        <div class="form-grid">
+                            <input type="text" placeholder="Your Name" required>
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-grid">
+                            <input type="tel" placeholder="Phone Number" required>
+                            <select>
+                                <option>Select Department</option>
+                                <option>Cardiology</option>
+                                <option>Neurology</option>
+                                <option>General</option>
+                            </select>
+                        </div>
+                        <input type="date" style="margin-bottom: 20px;">
+                        <textarea placeholder="Describe your problem" style="width: 100%; padding: 15px; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 20px; outline:none;" rows="4"></textarea>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Confirm Booking</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="logo" style="color: white; margin-bottom: 15px;">
+                        <i class="fa-solid fa-heart-pulse"></i> MediCare.
+                    </div>
+                    <p>Leading the way in medical excellence, trusted care.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <a href="#">Home</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Services</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> 123 Health Street, City</p>
+                    <p><i class="fa-solid fa-phone"></i> +1 234 567 890</p>
+                </div>
+            </div>
+            <div style="text-align: center; padding-top: 20px; border-top: 1px solid #334155;">
+                <p>&copy; 2024 MediCare. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
